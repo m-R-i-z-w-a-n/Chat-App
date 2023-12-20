@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="activity_horizontal_margin">200dp</dimen>
+    <dimen name="margin_between_views">8dp</dimen>
+</resources>

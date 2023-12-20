@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="30dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="6dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+
+        <TextView
+            android:id="@+id/date_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="DATE"
+            android:textSize="8sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginEnd="3dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/message_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sent"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/timestamp_message_sent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="TIME"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+</LinearLayout>
